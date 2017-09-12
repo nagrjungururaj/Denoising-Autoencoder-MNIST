@@ -14,17 +14,20 @@ Vincent, Pascal, et al. “Stacked denoising autoencoders: Learning useful repre
 
 You can download the paper here : http://jmlr.csail.mit.edu/papers/volume11/vincent10a/vincent10a.pdf
 
-# Denoising is the thing !
-So what is denoising ? Denoising actually is 'NOT' removal of noise but instead the opposite. So what does this have to do with autoencoders ? Interestingly, corrupting the input images before feeding them to the encoder enchances the training and quality of reconstruction of the input images. But wait, how is this possible ? The trick is this type of noisy training optimizes the loss between the output of the decoder with noisy inputs and the original input images. Generally three types of noise are used, 
+# Denoising Autoencoders
+So what is denoising ? Denoising actually is 'NOT' removal of noise but instead the opposite. So what does this have to do with autoencoders ? Interestingly, corrupting the input images before feeding them to the encoder enchances the training and quality of reconstruction of the input images. Note has to be taken that is this type of noisy training, the loss between the output of the decoder with noisy inputs and the original input images are optimized but not with the noisy input images. Generally three types of noise are used, 
 
 1. Additive gaussian noise : adding random gaussian distributed signal to our images with a specified mean and variance
 2. Masking noise : randomly set the pixels to 'zero' on a selected percentage area to our images leaving the remaining area of images untouched
 3. Salt & pepper noise : In our input images, a threshold is selected and pixels are set to 'zero' which are below the threshold and the  remaining are set to 'one/255'
 
 # How to use this code
-The code shows on how to use the autoencoders on the custom MNIST dataset to reconstruct them. Also, denoising techniques like gaussian and masking noise are applied which results in a denoised autoencoder. The user can implement deep stacked autoencoders and deep denoised autoencoders on their own image data after working on this demonstration.
+The code shows on how to use the autoencoders on the custom MNIST dataset to reconstruct them. Also, denoising techniques like gaussian and masking noise are applied which results in a denoised autoencoder. The user can implement and tweak deep stacked autoencoders and deep denoised autoencoders on their own image data after working on this demonstration.
 
 # Pre-requisites 
+The demonstration asssumes that the user has an basic-to-intermediate knowledge in Python and some basics in machine learning and neural networks. Additionally, basics of Tensorflow is useful.
+
+# Dependencies and Packages
 1. Python 2.7 or greater
 2. Tensorflow 0.8 or greater
 3. Scipy
