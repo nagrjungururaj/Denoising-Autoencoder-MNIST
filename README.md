@@ -25,7 +25,7 @@ So what is denoising ? Denoising actually is 'NOT' removal of noise but instead 
 The code shows on how to use the autoencoders on the custom MNIST dataset to reconstruct them. Also, denoising techniques like gaussian and masking noise are applied which results in a denoised autoencoder. The user can implement and tweak deep stacked autoencoders and deep denoised autoencoders on their own image data after working on this demonstration.
 
 # Pre-requisites 
-The demonstration asssumes that the user has an basic-to-intermediate knowledge in Python and some basics in machine learning and neural networks. Additionally, basics of Tensorflow is useful.
+The demonstration asssumes that the user has an basic-to-intermediate knowledge in Python and some basics in machine learning and neural networks. Additionally, basics of Tensorflow are useful.
 
 # Dependencies and Packages
 1. Python 2.7 or greater
