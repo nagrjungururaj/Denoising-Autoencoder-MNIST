@@ -12,4 +12,4 @@ You can download the paper here : http://jmlr.csail.mit.edu/papers/volume11/vinc
 # General info about autoencoders
 Motivating from neural network, the architecture of autoencoders resembles that of the previous. Autoencoders generally have a 'encoder' unit which is similar to the hidden layer of a neural network with some weights, and a 'decoder' unit where the weights of decoder unit are in such a way that the dimensions / pixels of input image/images are recovered.
 
-![Screenshot] (Autoencoder_structure.png)
+https://user-images.githubusercontent.com/31846605/30348343-4a2676ec-980f-11e7-965a-82d2c59c46b4.png
