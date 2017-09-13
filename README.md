@@ -1,4 +1,4 @@
-# Unsupervised-learning-on-MNIST
+# Applying Autoencoders-on-MNIST
 Information on how to use auto-encoders on the MNIST dataset
 
 # Overview
